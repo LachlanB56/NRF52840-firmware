@@ -38,7 +38,6 @@ Each stage is a separate commit once it's confirmed working on hardware.
 
 Stage 1–3 are brought up on an **nRF52840-DK**, not the final board, because:
 
-- No custom PCB or dev kit for the BL652 exists yet.
 - The nRF52840-DK has an on-board J-Link debugger and native USB, both of
   which make bring-up much easier than the final board will allow.
 
